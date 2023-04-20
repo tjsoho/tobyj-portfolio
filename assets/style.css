@@ -32,17 +32,13 @@ h2 {
     font-style: italic;
 }
 
-.colorGrid {
-    height: 100vh;
-}
-
 .square {
     height: 0;
     padding-bottom: 100%;
     position: relative;
     width: 100%;
     margin-bottom: -1px;
-    /* remove gap between rows */
+    
 }
 
 .inner {
