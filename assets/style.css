@@ -106,6 +106,67 @@ h3 {
     font-size: 60px;
 }
 
+/* About me section */
+/* Set the height of the rows */
+.rectangle-row-1 {
+	height: 33.33vh;
+}
+
+/* Set the position and size of the overlay */
+.overlay {
+    margin: 10%;
+	position: absolute;
+	top: 33;
+	left: 0;
+	width: 80%;
+	height: 80%;
+    border: black solid 1px;
+	background-color: white;
+}
+
+/* Center the contents of the overlay */
+.overlay h1 {
+	text-align: center;
+	margin: auto;
+}
+
+/* Set the background colors of the rectangles */
+.bg-1 {
+	background-color: #fe7075;
+    background-image: linear-gradient(45deg, #fe555d 50%, #fe7075 50%);
+}
+.bg-2 {
+	background-color: white;
+}
+.bg-3 {
+	background-color: #5b71ea;
+    background-image: linear-gradient(135deg, #5b71ea 50%, #919ff8 50%);
+}
+.bg-4 {
+	background-color: #ffcf51;
+    background-image: linear-gradient(135deg, #ffcf51 50%, #ffe597 50%);
+}
+.bg-5 {
+	background-color: white;
+}
+.bg-6 {
+	background-color: #fe7075;
+    background-image: linear-gradient(45deg, #fe555d 50%, #fe7075 50%);
+}
+.bg-7 {
+	background-color: #5b71ea;
+    background-image: linear-gradient(45deg, #5b71ea 50%, #919ff8 50%);
+}
+.bg-8 {
+	background-color: white;
+}
+.bg-9{
+    background-color: #ffcf51;
+    background-image: linear-gradient(135deg, #ffcf51 50%, #ffe597 50%);
+}
+
+
+/* rectangle section with project links */
 .rectangle-section {
     height: 100vh;
     background-color: #919ff8;
