@@ -12,10 +12,10 @@ header {
 }
 
 #hello {
-    opacity: 0.045;
-    font-size: 900px;
+    opacity: 0.06;
+    font-size: 650px;
     position: relative;
-    bottom: 35%;
+    bottom: 15%;
 }
 
 h1 {
@@ -97,9 +97,13 @@ h2 {
 }
 
 .squareHeader {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    top: 40%;
-    margin-left: 30%;
+    
 }
 
 h3 {
@@ -164,14 +168,6 @@ h3 {
 }
 
 
-/* rectangle section with project links */
-/* .rectangle-section {
-    height: 100vh;
-    background-color: #919ff8;
-    color: white;
-    width: 100vw;
-} */
-
 
 /* about me overlay section */
 
@@ -185,28 +181,33 @@ h3 {
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 0;
-    left: 0;
+   
 }
 
 .overlay {
-    height: calc(300% - 150px);
-    width: calc(100% - 140px);
+    min-height: 800px;
+    width: 80%;
     z-index: 9;
-    margin: 80px;
+    left: 0;
+    right: 0;
+    margin: 80px auto;
     background: white;
     position: absolute;
     box-shadow: 0px 0px 10px rgb(175, 160, 160);
     border-radius: 30px;
     display: flex;
     flex-wrap: wrap;
+    padding: 5%;
     
 }
 
 .meImg {
+    position: absolute;
     width: 300px;
     height: 300px;
     margin-top: 50px;
+    right: 30px;
+    bottom: 0;
     align-self: flex-end;
 }
 
